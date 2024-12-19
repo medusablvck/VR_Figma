@@ -1,0 +1,158 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vw
+}
+
+.header__logo{
+    width: 201px;
+    height: 40px ;
+}
+
+.button__basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    width: 115px;
+    height: 38px;
+    border-radius: 100px;
+    background-color: #5222D0;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.text_h1{
+    width: 50%;
+    text-transform: uppercase;
+    margin: 6vw;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-shadow: 0px 1.3px #C0C0C0
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+
+.viar__mir{
+    width: 50%;
+    margin: 6vw;
+    font-size: 1.3em;
+    
+}
+
+.button__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #5222D0;
+    color: white;
+    margin: 6vw;
+    font-size: 1.8em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.vr__img{
+    max-width: 100%;
+    height: auto;
+    margin-right: 60px;
+}
+
+.footer__navigation{
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 6vw;
+}
+
+.element__footer{
+    font-size: 1.2em;
+    color: #5222D0;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+.main{
+    max-width: 100%;
+}
+
+.main__title_block-img, .main__title-block{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.block-img{
+    width: 400px;
+    
+}
+
+
+.main__title{
+    text-transform: uppercase;
+    margin: 6vw;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+.text_h2{
+    font-size: 2.2em;
+}
+.title_p{
+    font-size: 1.3em;
+    width: 400px;
+}
+
+.subscribe{
+    background-color: #EC615B;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    color: white;
+
+}
+
+.button__subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    width: 135px;
+    height: 38px;
+    border-radius: 100px;
+    background-color: #5222D0;
+    color: white;
+    margin: 6vw;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+
+.subscribe__title{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+*{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
